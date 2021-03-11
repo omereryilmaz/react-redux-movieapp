@@ -3,7 +3,14 @@ import './App.css';
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import { ControlPanel, MovieList, MovieSearch, NotFound, MainMenu } from '../../components';
+import { 
+  ControlPanel, 
+  Movie, 
+  MovieSearch, 
+  NotFound, 
+  MainMenu,
+  MovieDetail
+ } from '../../components';
 
 const App = () => {
   return (
@@ -37,12 +44,13 @@ const App = () => {
           <Switch>
             <Route path='/' exact render={() => (
               <React.Fragment>
-                <MovieList />
+                <Movie />
               </React.Fragment>
             )}
             />
 
             <Route path='/control-panel' component={ControlPanel} />
+            <Route path='/detail/:id' component={MovieDetail} />
             <Route path='*' component={NotFound} />
           </Switch>
         </div>

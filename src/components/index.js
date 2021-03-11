@@ -1,6 +1,8 @@
 export { default as App } from './app/App';
 export { default as ControlPanel } from './control_panel/ControlPanel';
+export { default as Movie } from './movie/Movie';
 export { default as MovieList } from './movie/MovieList';
+export { default as MovieListFiltered } from './movie/MovieListFiltered';
 export { default as MovieSearch } from './movie/MovieSearch';
 export { default as NotFound } from './error/NotFound';
 export { default as MainMenu } from './menus/MainMenu';
@@ -8,3 +10,4 @@ export { default as AddMovie } from './forms/AddMovie';
 export { default as UpdateMovie } from './forms/UpdateMovie';
 export { default as MoviesTable } from './tables/Movies';
 export { default as MovieCard } from './movie/MovieCard';
+export { default as MovieDetail } from './movie/MovieDetail';

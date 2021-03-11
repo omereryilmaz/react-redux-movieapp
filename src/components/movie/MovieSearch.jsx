@@ -1,6 +1,5 @@
 import React from 'react';
-import serialize from 'form-serialize';
-import { searchMovie } from '../../redux/Movie/movie.actions';
+import { searchMovie, searchingMovie } from '../../redux/Movie/movie.actions';
 import { useDispatch, useSelector } from 'react-redux';
 
 const SearchMovie = () => {
@@ -12,8 +11,10 @@ const SearchMovie = () => {
     if (value !== undefined) {
       const filteredMovies = movies.filter(movie => movie.name.toLowerCase().indexOf(value.toLowerCase()) !== -1)
       dispatch(searchMovie(filteredMovies));
+      dispatch(searchingMovie(true));
     } else{
       dispatch(searchMovie(movies));
+      dispatch(searchingMovie(false));
     }   
   }
 

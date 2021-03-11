@@ -3,8 +3,8 @@ import './Movie.css';
 import { MovieCard } from '../../components';
 import { useSelector } from 'react-redux';
 
-const MovieList = () => {
-	const movies = useSelector((state) => state.movie.movieList);
+const MovieListFiltered = () => {
+	const movies = useSelector((state) => state.movie.filteredMovieList);
 	
 	return (
 		<>
@@ -26,4 +26,4 @@ const MovieList = () => {
 	)
 }
 
-export default MovieList;
+export default MovieListFiltered;

@@ -31,7 +31,7 @@ const movieData = [
       "id": "d0fe05b0-7bd5-4571-9f83-9f3df98cff9d",
       "name": "Blitz 007",
       "rating": "5",
-      "overview": "A tough, renegade cop with a gay sidekick is dispatched to take down a serial killer who has been targeting police officers. AÇIKLAMA AÇIKLAMA",
+      "overview": "A tough, renegade cop with a gay sidekick is dispatched to take down a serial killer who has been targeting police officers.",
       "imageUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qCPMjT8Ld8tvs1zs7LY2jpKlRIK.jpg"
     },
     {
@@ -45,14 +45,14 @@ const movieData = [
       "id": "4f6a9e70-fffd-44ac-80a2-a4ee04ea99f7",
       "name": "2067",
       "rating": 7.1,
-      "overview": "While searching for her missing mother, intrepid teen Enola Holmes uses her sleuthing skills to outsmart big brother Sherlock and help a runaway lord.",
+      "overview": "A lowly utility worker is called to the future by a mysterious radio signal, he must leave his dying wife to embark on a journey that will force him to face his deepest fears in an attempt to change the fabric of reality and save humankind from its greatest environmental crisis yet.",
       "imageUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg"
     },
     {
       "id": "a49d09ed-1e26-4ffe-8d8e-d4f35c93498f",
       "name": "Welcome to Sudden Death",
       "rating": 6.5,
-      "overview": "While searching for her missing mother, intrepid teen Enola Holmes uses her sleuthing skills to outsmart big brother Sherlock and help a runaway lord.",
+      "overview": "Jesse Freeman is a former special forces officer and explosives expert now working a regular job as a security guard in a state-of-the-art basketball arena. Trouble erupts when a tech-savvy cadre of terrorists kidnap the team's owner and Jesse's daughter during opening night. Facing a ticking clock and impossible odds, it's up to Jesse to not only save them but also a full house of fans in this highly charged action thriller.",
       "imageUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/elZ6JCzSEvFOq4gNjNeZsnRFsvj.jpg"
     }
   ];

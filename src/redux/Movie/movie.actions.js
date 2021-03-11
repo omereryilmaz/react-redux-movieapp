@@ -43,16 +43,16 @@ export const updateMovie = (payload) => {
     }
 }
 
-export const searchingMovie = (payload) => {
+export const searchMovie = (payload) => {
     return {
-        type: SEARCHING_MOVIE,
+        type: SEARCH_MOVIE,
         payload
     }
 }
 
-export const searchMovie = (payload) => {
+export const searchingMovie = (payload) => {
     return {
-        type: SEARCH_MOVIE,
+        type: SEARCHING_MOVIE,
         payload
     }
 }

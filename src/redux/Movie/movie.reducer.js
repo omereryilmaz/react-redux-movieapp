@@ -4,7 +4,8 @@ import {
 	EDITING_MOVIE,
 	SELECT_MOVIE,
 	UPDATE_MOVIE,
-	SEARCH_MOVIE
+	SEARCH_MOVIE,
+	SEARCHING_MOVIE
 } from './movie.types';
 import movieData from '../../data/movieData';
 
@@ -12,9 +13,8 @@ const INITIAL_STATE = {
 	movieList: movieData,
 	updating: false,
 	selectedMovie: {},
-	filteredMovieList: movieData,
-	searching: '',
-	searchQuery: ''
+	searching: false,
+	filteredMovieList: movieData
 };
 
 const reducer = (state = INITIAL_STATE, action) => {
@@ -42,6 +42,10 @@ const reducer = (state = INITIAL_STATE, action) => {
 		case SEARCH_MOVIE:
 			return Object.assign({}, state, {
 				filteredMovieList: action.payload
+			});
+		case SEARCHING_MOVIE:
+			return Object.assign({}, state, {
+				searching: action.payload
 			});
 		default:
 			return state;

@@ -13,14 +13,12 @@ const UpdateMovie = () => {
     selectedMovie = { ...selectedMovie, [name]: value};
   }
 
-
   function handleFormSubmit(event) {
     event.preventDefault();
     const clickedBtnName = event.nativeEvent.submitter.name;
     if (clickedBtnName === 'cancel') {
       dispatch(editingMovie(false));
     } else {
-      console.log("Saved!");
       dispatch(updateMovie(selectedMovie));
       dispatch(editingMovie(false));
     }
