@@ -39,23 +39,23 @@ react-redux-movieapp (project name)
 
 ## Screenshots
 ### Main page
-![Main page](https://octodex.github.com/images/yaktocat.png)
+![Main page](https://raw.githubusercontent.com/omereryilmaz/react-redux-movieapp/master/screenshots/image_1.png)
 
 ### Control Panel
-![Control Panel](https://octodex.github.com/images/yaktocat.png)
+![Control Panel](https://raw.githubusercontent.com/omereryilmaz/react-redux-movieapp/master/screenshots/image_2.png)
 
 ### Updating a Movie
-![Updating a Movie](https://octodex.github.com/images/yaktocat.png)
+![Updating a Movie](https://raw.githubusercontent.com/omereryilmaz/react-redux-movieapp/master/screenshots/image_3.png)
 
 ### Searching
-![Searching](https://octodex.github.com/images/yaktocat.png)
+![Searching](https://raw.githubusercontent.com/omereryilmaz/react-redux-movieapp/master/screenshots/image_4.png)
 
 ### Responsive Design
-![Responsive Design](https://octodex.github.com/images/yaktocat.png)
+![Responsive Design](https://raw.githubusercontent.com/omereryilmaz/react-redux-movieapp/master/screenshots/image_5.png)
 
 
 ## Demo
-[Demo](https://choosealicense.com/licenses/mit/)
+[Demo](https://lqdg8.csb.app/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
